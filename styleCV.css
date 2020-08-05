@@ -1,0 +1,168 @@
+#conteneur{
+  display: flex;
+}
+#partiegauche{
+  padding-left: 30px;
+  padding-right: 30px;
+  flex: 1;
+  background-color:rgb(190, 152, 204);
+  justify-content: space-between;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#partiedroite{
+  padding-left: 50px;
+  padding-right: 50px;
+  display: block;
+  flex: 2.8;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-size: 2em
+}
+ #photodemoi{
+   border: none;
+   -moz-border-radius : 75px;
+   -webkit-border-radius : 75px;
+   border-radius : 100px;
+   width : 150px; height : 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.blackbanner{
+  text-align: center;
+  background-color: black;
+  color: rgb(190, 152, 204);
+  height: 30px;
+
+}
+
+.blackbanner h2{
+  vertical-align: middle;
+}
+.titredroite{
+  border-bottom:2px solid purple;
+
+}
+
+
+#contact{
+  display: flex;
+  flex-direction: column;
+}
+#apropos{
+  text-align: justify;
+}
+#imageloisirs{
+  display: flex;
+  justify-content: space-around;
+}
+
+#sport{
+  width: 50px;
+	height: 50px;
+}
+#voyage{
+  width: 50px;
+	height: 50px;
+}
+#jeux{
+  width: 50px;
+	height: 50px;
+}
+#formation{
+  display: flex;
+  flex-direction: column;
+}
+
+.gaucheformation{
+  display: flex;
+  flex-direction: column;
+}
+
+.droiteformation{
+  padding-left: 450px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#bac{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+#medecine{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#staps{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#experience{
+  display: flex;
+  flex-direction: column;
+}
+
+.titreexperience{
+  display: flex;
+  flex-direction: column;
+}
+
+.droiteexperience{
+  display: flex;
+  flex-direction: column;
+  padding-left: 450px;
+  text-align: justify;
+  padding-right: 500px
+}
+
+.gaucheexperience{
+  display: flex;
+  flex-direction: column;
+  padding-right: 500px
+}
+
+#dracer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+#competences{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.titrecompetence{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px)
+{
+  #conteneur
+  {display: flex;
+    flex-direction: column;
+  }
+}

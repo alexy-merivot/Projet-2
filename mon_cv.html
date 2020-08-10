@@ -1,160 +1,190 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="mon_cv.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://kit.fontawesome.com/cdbe2c5fe6.js" crossorigin="anonymous"></script>
     <title> MON CV </title>
   </head>
 
   <body>
     <div id=conteneur>
-      <div id="gauchepage">
+      <div id="toppage">
         <header>
-          <img id="photodemoi"src="PhotoDeMoi.jpg"/ alt="Une photo de moi" />
+          <div id="photo" >
+            <img id="photodemoi"src="PhotoDeMoi.jpg" alt="Une photo de moi" />
+          </div>
+          <div id="titrenom">
+            <h1> <span id="alexy">Alexy</span> Merivot</h1>
+            <h4><span id="souligne">Dével</span>oppeur web freelance</h4>
+          </div>
         </header>
-        <section id="contact">
-          <div class="blackbanner">
-            <h2>Contact</h2>
-          </div>
-          <div id="listcontact">
-            <div id="adress" class="listcontact">
-              <span>Adresses :</span>
-              <span>Reims</span>
-            </div>
-            <div id="tel" class="listcontact">
-              <span>Téléphone :</span>
-              <span>0631887032</span>
-            </div>
-            <div id="mail" class="listcontact">
-              <span>email :</span>
-              <span>alexy.merivot@gmail.com </span>
-            </div>
-            <div id="siteweb" class="listcontact">
-              <span>Site Web :</span>
-              <span>www.alexymerivot.com </span>
-            </div>
-            <div id="Skype" class="listcontact">
-              <span>Skype :</span>
-              <span>@AlexyMerivot</span>
-            </div>
-          </div>
-        </section>
-        <section id="apropos">
-          <div class="blackbanner">
-            <h2> À propos de moi </h2>
-          </div>
-          <div id="presentation">
-            <span>Actuellement détenteur d'une licence en Management, je souhaite à présent m'orienter vers l'informatique afin de devenir développeur et mettre à profit ma créativité tout en travaillant en équipe sur un projet.</span>
-          </div>
-        </section>
-        <section id="loisirs">
-          <div class="blackbanner">
-            <h2> Loisirs  </h2>
-          </div>
-          <div id="imagesloisirs">
-            <img id="sport" src="sport.svg" alt="Sport"/>
-            <img id="voyage" src="voyage.svg" alt="Voyages"/>
-            <img id="jeux" src="jeux.svg" alt="Jeux vidéos"/>
-          </div>
-        </section>
       </div>
-      <div id="droitepage">
-        <section id="titrenom">
-          <h1> <span id="alexy">Alexy</span> Merivot</h1>
-          <h4><span id="souligne">Dével</span>oppeur web freelance</h4>
-        </section>
-        <section id="formation">
-          <div class="titre">
-            <h2> <img src="hat.svg"/> Formations </h2>
-          </div>
-          <div id="touteformation">
-            <ul>
-            <li><div class="formation" id="bac">
-              <div class="gaucheformation">
-                <span>2012</span>
-                <span>Chateau-Thierry</span>
-              </div>
-              <div class="droiteformation">
-                <h4>Lycée Jean de la Fontaine</h4>
-                <span>Baccalauréat Série S</span>
-              </div>
-            </div></li>
-            <li><div class="formation" id="medecine">
-              <div class="gaucheformation">
-                <span>2012-2014</span>
-                <span>Reims</span>
-              </div>
-              <div class="droiteformation">
-                <h4>Faculté de médecine Reims Champagne-Ardennes</h4>
-                <span>PACES</span>
-              </div>
-            </div></li>
-            <li><div class="formation" id="staps">
-              <div class="gaucheformation">
-                <span>2018</span>
-                <span>Reims</span>
-              </div>
-              <div class="droiteformation">
-                <h4>Université Reims Champagne-Ardennes</h4>
-                <span>Licence STAPS Management du Sport</span>
-              </div>
-            </div></li>
-          </ul>
-          </div>
-        </section>
-        <section id="experience">
-          <div class="titre">
-            <h2><img src="suitcase.svg"/> Experiences Professionnelles </h2>
-          </div>
-          <div id="touteexperience">
-            <ul>
-            <li><div class="experience" id="dracer">
-              <div class="gaucheexperience">
-                <span>Concours Pépite</span>
-                <span>Chalons en Champagne</span>
-                <span>Mai 2018</span>
-              </div>
-              <div class="droiteexperience">
-                <h4>Dracer</h4>
-                <span>Présentation du business plan d’un projet(Dracer) entrepreneuriale personnel, présenté devant un jury lors d’un concours d’étudiants autoentrepreneurs sélectionnés parmis plusieurs dossiers.</span>
-              </div>
-            </div></li>
-            <li><div class="experience" id="lefive">
-              <div class="gaucheexperience">
-                <span>Le Five</span>
-                <span>Reims</span>
-                <span>Avril 2017 et 2018</span>
-              </div>
-              <div class="droiteexperience">
-                <h4>Le Five</h4>
-                <span>Organisation d'un tournoi de football au Five de Reims dans l'optique d'e l'organisation d'un évènement avec l'université.</span>
-                <span>Animation, Communication, Organisation évènement, élaboration devis </span>
-              </div>
-            </div></li>
-          </div>
-        </section>
-      <footer>
-        <section id= competence>
-          <div class="titre">
-            <h2><img src="pencil.svg" /> Compétences </h2>
-          </div>
-          <div id="contenucompetence">
-            <div class=titrecompetence id="langues">
-              <h3>Langues</h3>
-                <span>Français : natif</span>
-                <span>Anglais : B1</span>
-                <span>Espagnol : Notions</span>
+      <div id="lowpage">
+        <div id="gauchepage">
+          <section id="contact">
+            <div class="blackbanner">
+              <h2>Contact</h2>
             </div>
-            <div class="titrecompetence "id="skills">
-              <h3>Skills</h3>
-                <span>Organisation</span>
-                <span>Management</span>
-                <span>Travail d'équipe</span>
-                <span>Gestion de projet</span>
+            <div id="listcontact">
+              <div id="adress" class="listcontact">
+                <span>Adresses :</span>
+                <span>Reims</span>
+              </div>
+              <div id="tel" class="listcontact">
+                <span>Téléphone :</span>
+                <span>0631887032</span>
+              </div>
+              <div id="mail" class="listcontact">
+                <span>email :</span>
+                <span>alexy.merivot@gmail.com </span>
+              </div>
+              <div id="siteweb" class="listcontact">
+                <span>Site Web :</span>
+                <span>www.alexymerivot.com </span>
+              </div>
+              <div id="Skype" class="listcontact">
+                <span>Skype :</span>
+                <span>@AlexyMerivot</span>
+              </div>
             </div>
-          </div>
-        </section>
-      </footer>
+          </section>
+          <section id="apropos">
+            <div class="blackbanner">
+              <h2> À propos de moi </h2>
+            </div>
+            <div id="presentation">
+              <span>Actuellement détenteur d'une licence en Management, je souhaite à présent m'orienter vers l'informatique afin de devenir développeur et mettre à profit ma créativité tout en travaillant en équipe sur un projet.</span>
+            </div>
+          </section>
+          <section id="loisirs">
+            <div class="blackbanner">
+              <h2> Loisirs  </h2>
+            </div>
+            <div id="imagesloisirs">
+              <img id="sport" src="sport.svg" alt="Sport"/>
+              <img id="voyage" src="voyage.svg" alt="Voyages"/>
+              <img id="jeux" src="jeux.svg" alt="Jeux vidéos"/>
+            </div>
+          </section>
+        </div>
+        <div id="droitepage">
+          <section id="formation">
+            <div class="titre">
+              <h2> <i class="fas fa-graduation-cap" style="color: rgb(190, 152, 204)"></i> Formations </h2>
+            </div>
+            <div id="touteformation">
+              <ul>
+                <li>
+                  <span class="noir">
+                    <div class="formation" id="bac">
+                      <div class="gaucheformation">
+                        <span>2012</span>
+                        <span>Chateau-Thierry</span>
+                      </div>
+                      <div class="droiteformation">
+                        <h4>Lycée Jean de la Fontaine</h4>
+                        <span>Baccalauréat Série S</span>
+                      </div>
+                    </div>
+                  </span>
+                </li>
+                <li>
+                  <span class="noir">
+                    <div class="formation" id="medecine">
+                      <div class="gaucheformation">
+                        <span>2012-2014</span>
+                        <span>Reims</span>
+                      </div>
+                      <div class="droiteformation">
+                        <h4>Faculté de médecine Reims Champagne-Ardennes</h4>
+                        <span>PACES</span>
+                      </div>
+                    </div>
+                  </span>
+                </li>
+                <li>
+                  <span class="noir">
+                    <div class="formation" id="staps">
+                      <div class="gaucheformation">
+                        <span>2018</span>
+                        <span>Reims</span>
+                      </div>
+                      <div class="droiteformation">
+                        <h4>Université Reims Champagne-Ardennes</h4>
+                        <span>Licence STAPS Management du Sport</span>
+                      </div>
+                    </div>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section id="experience">
+            <div class="titre">
+              <h2><i class="fas fa-suitcase" style="color: rgb(190, 152, 204)"></i> Experiences Professionnelles </h2>
+            </div>
+            <div id="touteexperience">
+              <ul>
+                <li>
+                  <span class="noir">
+                    <div class="experience" id="dracer">
+                      <div class="gaucheexperience">
+                        <span>Concours Pépite</span>
+                        <span>Chalons en Champagne</span>
+                        <span>Mai 2018</span>
+                      </div>
+                      <div class="droiteexperience">
+                        <h4>Dracer</h4>
+                        <span>Présentation du business plan d’un projet(Dracer) entrepreneuriale personnel, présenté devant un jury lors d’un concours d’étudiants autoentrepreneurs sélectionnés parmis plusieurs dossiers.</span>
+                      </div>
+                    </div>
+                  </span>
+                </li>
+                <li>
+                  <span class="noir">
+                    <div class="experience" id="lefive">
+                      <div class="gaucheexperience">
+                        <span>Le Five</span>
+                        <span>Reims</span>
+                        <span>Avril 2017 et 2018</span>
+                      </div>
+                      <div class="droiteexperience">
+                        <h4>Le Five</h4>
+                        <span>Organisation d'un tournoi de football au Five de Reims dans l'optique d'e l'organisation d'un évènement avec l'université.</span>
+                        <span>Animation, Communication, Organisation évènement, élaboration devis </span>
+                      </div>
+                    </div>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <footer>
+            <section id= competence>
+              <div class="titre">
+                <h2> <i class="fas fa-pencil-alt" style="color: rgb(190, 152, 204)"> </i> Compétences </h2>
+              </div>
+              <div id="contenucompetence">
+                <div class=titrecompetence id="langues">
+                  <h3>Langues</h3>
+                  <span>Français : natif</span>
+                  <span>Anglais : B1</span>
+                  <span>Espagnol : Notions</span>
+                </div>
+                <div class="titrecompetence "id="skills">
+                  <h3>Skills</h3>
+                  <span>Organisation</span>
+                  <span>Management</span>
+                  <span>Travail d'équipe</span>
+                  <span>Gestion de projet</span>
+                </div>
+              </div>
+            </section>
+          </footer>
+        </div>
       </div>
     </div>
   </body>

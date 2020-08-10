@@ -1,6 +1,219 @@
+@media all and (max-width: 600px){
+  h1{
+    font-size: 2em;
+  }
+
+  ul{
+    color: rgb(190, 152, 204);
+  }
+
+  li > .noir{
+    color: black;
+  }
+
+  .purpleicon{
+    color: rgb(190, 152, 204)
+  }
+
+
+  #conteneur{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #alexy{
+    color: purple;
+  }
+
+  #souligne{
+    text-decoration : underline;
+    text-decoration-color : purple;
+  }
+
+  .titre{
+    border-bottom:2px solid purple;
+  }
+
+  #titrenom{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    flex: 2.8;
+    text-align: center;
+    background-color: rgb(190, 152, 204);
+
+  }
+
+  #photo{
+    min-width: 230.375px;
+    flex: 1;
+    background-color:rgb(190, 152, 204);
+  }
+
+  #lowpage{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #gauchepage{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color:rgb(190, 152, 204);
+  }
+
+  #droitepage{
+    display: flex;
+    flex-direction: column;
+    flex: 2.8;
+    margin-left: 30px;
+    margin-right: 25px;
+  }
+
+  #photodemoi{
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 100px;
+    width : 150px; height : 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 20px;
+  }
+
+  #loisirs{
+    flex: 0.5;
+  }
+
+  #apropos{
+    flex: 2;
+  }
+
+  #listcontact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .listcontact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .blackbanner{
+    text-align: center;
+    background-color: black;
+    color: rgb(190, 152, 204);
+    height: 30px;
+  }
+
+  #presentation{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+
+  #imagesloisirs{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #sport{
+    width: 50px;
+  	height: 50px;
+  }
+  #voyage{
+    width: 50px;
+  	height: 50px;
+  }
+  #jeux{
+    width: 50px;
+  	height: 50px;
+  }
+
+  #touteformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .formation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .gaucheformation{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+
+  .droiteformation{
+    flex: 1;
+  }
+
+  #touteexperience{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .gaucheexperience{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+
+  .droiteexperience{
+    flex: 1;
+  }
+
+  #contenucompetence{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .titrecompetence{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media all and (min-width: 600px){
 
   h1{
-    font-size: 2em
+    font-size: 2em;
   }
 
   ul{
@@ -206,3 +419,4 @@
     display: flex;
     flex-direction: column;
   }
+}

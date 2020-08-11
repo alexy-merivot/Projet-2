@@ -1,6 +1,10 @@
 
 @media all and (min-width: 600px){
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 729cda9c98fbf9c3bcec8388248e34a74359f7a3
   h1{
     font-size: 2em;
   }
@@ -208,5 +212,8 @@
     display: flex;
     flex-direction: column;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 729cda9c98fbf9c3bcec8388248e34a74359f7a3
 }

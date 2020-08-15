@@ -188,8 +188,9 @@ li > .noir{
   flex-direction: column;
 }
 
-.discbullet :before{
-  border: solid 2px black;
+.discbullet{
+  list-style-type: circle;
+
 }
 
 @media all and (min-width: 600px){

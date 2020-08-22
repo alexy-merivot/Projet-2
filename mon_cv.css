@@ -1,9 +1,18 @@
 body {
   margin: 0 auto;
+  font-family: "police1", Arial;
+}
+
+@font-face {
+  font-family: "police1"
+  src: url(/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/projet_2/MonCv/police1.otf);
+  font-family: "police2"
+  src: url(/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/projet_2/MonCv/police2.otf);
 }
 
 h1{
   font-size: 2em;
+  font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
 }
 
 ul{
@@ -37,6 +46,7 @@ li > .noir{
 
 .titre{
   border-bottom:2px solid purple;
+  font-family: "police2";
 }
 
 #titrenom{
@@ -110,6 +120,7 @@ li > .noir{
   background-color: black;
   color: rgb(190, 152, 204);
   height: 30px;
+  font-family: "police2";
 }
 
 #presentation{

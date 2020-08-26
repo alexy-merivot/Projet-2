@@ -4,10 +4,10 @@ body {
 }
 
 @font-face {
-  font-family: "police1"
+  font-family: "police1";
   src: url(/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/projet_2/MonCv/police1.otf);
-  font-family: "police2"
-  src: url(/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/projet_2/MonCv/police2.otf);
+  font-family: "police2";
+  ;src: url(/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/projet_2/MonCv/police2.otf);
 }
 
 h1{
@@ -55,7 +55,7 @@ li > .noir{
   flex: 2.8;
   text-align: center;
   margin-left: 30px;
-  margin-right: 25px;’
+  margin-right: 25px;
 }
 
 #photo{

@@ -19,14 +19,11 @@ ul{
   color: rgb(190, 152, 204);
 }
 
-li > .noir{
-  color: black;
 }
 
 .purpleicon{
   color: rgb(190, 152, 204)
 }
-
 
 #conteneur{
   display: flex;
@@ -220,12 +217,14 @@ li > .noir{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: black;
   }
 
   .experience{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: black;
   }
 
 }

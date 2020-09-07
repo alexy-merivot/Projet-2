@@ -5,9 +5,9 @@ body {
 
 @font-face {
   font-family: "police1";
-  src: url(/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/projet_2/MonCv/police1.otf);
+  src: url(/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/projet_2/MonCv/polices/police1.otf);
   font-family: "police2";
-  ;src: url(/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/projet_2/MonCv/police2.otf);
+  ;src: url(/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/projet_2/MonCv/polices/police2.otf);
 }
 
 h1{
@@ -258,12 +258,14 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: black;
   }
 
   .experience{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: black;
   }
 
 }
